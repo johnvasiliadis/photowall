@@ -1,7 +1,7 @@
 import * as firebase from 'firebase'
 
 var config = {
-    apiKey: process.env.FBAPIKEY,
+    apiKey: process.env.DB_FB_APIKEY,
     authDomain: "photowall-cd818.firebaseapp.com",
     databaseURL: "https://photowall-cd818.firebaseio.com",
     projectId: "photowall-cd818",
